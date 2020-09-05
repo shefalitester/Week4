@@ -8,10 +8,10 @@ public class Arraylist {
 
 	public static void main(String[] args) {
 		List<Integer> empid = new ArrayList<Integer>();
-		//insert vaues to list
+		//insert values to list
 		empid.add(567123);
 		empid.add(908726);
-		//insert value at soecified index
+		//insert value at specified index
 		empid.add(2,7893456);
 		empid.add(3,5678220);
 		for (Integer i : empid) {
